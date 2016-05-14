@@ -1,0 +1,25 @@
+<!DOCTYPE>
+<html>
+<body>
+    <!-- template -->
+    <script id="todo-template" type="text/x-handlebars-template">
+        {{#each view_list}}
+            <li class="todo-item">
+                <input class="input" type="checkbox" {{checked}}>
+                <div class="{{checked}}">{{val}}</div>
+                <div class="remove">X</div>
+            </li>
+        {{/each}}
+    </script>
+
+    <input id="todo-input"/>
+    <ul id="todo-list">
+        <!-- template inserted -->
+    </ul>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/handlebars/dist/handlebars.js"></script>
+    <script src="mvc.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "notes-mvc-no-framework",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Hans Schenker <hans.schenker@windowslive.com> (http://www.netxpert.ch/)",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars": "4.0.5",
+    "jquery": "1.11.3"
+  }
+}
